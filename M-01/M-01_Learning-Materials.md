@@ -1,6 +1,4 @@
-
 # Module 1: Learning Materials
-
 
 ### Read:
 
@@ -8,16 +6,15 @@
 
 - [x] Webpage: [OWASP Cheat Sheet Series - Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 
-- [ ] Webpage: [OWASP Cheat Sheet Series - Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
+- [x] Webpage: [OWASP Cheat Sheet Series - Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
 
-- [ ] Webpage: [Authentication vs Authorization](https://www.educba.com/authentication-vs-authorization/)
+- [x] Webpage: [Authentication vs Authorization](https://www.educba.com/authentication-vs-authorization/)
 
-- [ ] Webpage: [Access Control Types and Models](https://identitymanagementinstitute.org/access-control-types-and-models/)
+- [x] Webpage: [Access Control Types and Models](https://identitymanagementinstitute.org/access-control-types-and-models/)
 
-- [ ] Webpage: [Access Control Implementation](https://www.forestadmin.com/blog/access-control-implementation/)
+- [x] Webpage: [Access Control Implementation](https://www.forestadmin.com/blog/access-control-implementation/)
 
 - [ ] Webpage: [How to implement access control: step by step](https://workos.com/blog/how-to-implement-access-control)
-
 
 ### Watch
 
