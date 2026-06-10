@@ -1,3 +1,4 @@
+
 # Module 1: Learning Materials
 
 ### Read:
@@ -14,8 +15,8 @@
 
 - [x] Webpage: [Access Control Implementation](https://www.forestadmin.com/blog/access-control-implementation/)
 
-- [ ] Webpage: [How to implement access control: step by step](https://workos.com/blog/how-to-implement-access-control)
+- [x] Webpage: [How to implement access control: step by step](https://workos.com/blog/how-to-implement-access-control)
 
 ### Watch
 
-- [ ] Youtube: [What is the CIA Triad](https://youtu.be/kPPFNrlN3zo?feature=shared) [length: 4:06]
+- [x] Youtube: [What is the CIA Triad](https://youtu.be/kPPFNrlN3zo?feature=shared) [length: 4:06]
