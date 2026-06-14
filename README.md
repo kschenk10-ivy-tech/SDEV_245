@@ -4,7 +4,7 @@
 
 - [Module 1: Learning Materials](https://github.com/kschenk10-ivy-tech/SDEV_245/blob/79bfdbd9d4107c8f6522ee494dcf86e0f5b53721/M-01/M-01_Learning-Materials.md)
 
-- [ ] Module 1: Assignment - RBAC and Authentication Mini-App is due by Mon, June 15, 2026, 10:59pm.
+- [X] Module 1: Assignment - [Link to Mini-App](https://kschenk10-ivy-tech.github.io/M-01-Page/)
 
 ## M-02
 - [Module 2: Learning Materials](/M-02/M-02_Learning-Materials.md)
