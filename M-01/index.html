@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDEV-245_M-01_Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 8px 12px;
+        }
+
+        #output {
+            margin-top: 15px;
+            font-weight: semi-bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Role-Based Access Control and Authentication Mini-App</h2>
+
+    <button onclick="login('alice')">Login as Admin</button>
+    <button onclick="login('bob')">Login as User</button>
+    <hr>
+
+    <button onclick="adminAction()">Admin Action</button>
+    <button onclick="userAction()">User Action</button>
+
+    <div id="output">Not logged in.</div>
+    
+    <script>
+
+        // Hardcoded users and roles
+        const users = {
+            alice: { role: "admin" },
+            bob: { role: "user" }
+        };
+
+        let currentUser = null;
+
+        // Authentication simulation
+        function login(username) {
+            currentUser = users[username];
+
+            document.getElementById("output").textContent =
+                `Logged in as ${username} (${currentUser.role})`;
+        }
+
+        // Protected admin function
+        function adminAction() {
+
+
+
+    // Confidentiality:
+    // Only users with the "admin" role are allowed
+    // to access this action. Other users are denied access,
+    // preventing unauthorized viewing or use of protected resources.
+
+            if (!currentUser) {
+                show("Access denied: Please log in.");
+                return;
+            }
+
+            if (currentUser.role !== "admin") {
+                show("Access denied: Admins only.");
+                return;
+            }
+
+            show("Admin action executed.");
+        }
+
+        // Protected user function
+        function userAction() {
+            if (!currentUser) {
+                show("Access denied: Please log in.");
+                return;
+            }
+
+            if (currentUser.role !== "user") {
+                show("Access denied: Users only.");
+                return;
+            }
+
+            show("User action executed.");
+        }
+
+        function show(message) {
+            document.getElementById("output").textContent = message;
+        }
+
+    </script>
+
+</body>
+</html>
